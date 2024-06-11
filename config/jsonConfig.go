@@ -41,7 +41,7 @@ type backendConfig struct {
 type user struct {
 	Username string `json:"Username"`
 	Password string `json:"Password"`
-	MaxConnections string `json:"maxConnections"`
+	MaxConnections int `json:"maxConnections"`
 }
 
 type SelectedBackend struct {
