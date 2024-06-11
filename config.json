@@ -28,11 +28,13 @@
   "Users": [
     {
       "Username": "Test",
-      "Password": "$2a$12$r3T1xyHbpAh2Jks3hlb.8OJKtzQZVTiNgi6bMROJeTVWboS3HsTkK"
+      "Password": "$2a$12$r3T1xyHbpAh2Jks3hlb.8OJKtzQZVTiNgi6bMROJeTVWboS3HsTkK",
+      "maxConnections": 2
     },
     {
       "Username": "Test2",
-      "Password": "$2a$12$r3T1xyHbpAh2Jks3hlb.8OJKtzQZVTiNgi6bMROJeTVWboS3HsTkK"
+      "Password": "$2a$12$r3T1xyHbpAh2Jks3hlb.8OJKtzQZVTiNgi6bMROJeTVWboS3HsTkK",
+      "maxConnections": 1
     }
   ]
 }
