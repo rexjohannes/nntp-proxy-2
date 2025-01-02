@@ -1,0 +1,8 @@
+services:
+  nntp-proxy:
+    image: ghcr.io/rexjohannes/nntp-proxy-2:latest
+    container_name: nntp-proxy
+    ports:
+      - "3333:3333"
+    volumes:
+      - ./config.json:/config/config.json
